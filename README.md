@@ -1,2 +1,2 @@
 # nikoheinde
-Webside of Niko
+Website of Niko
