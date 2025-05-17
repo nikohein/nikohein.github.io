@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ae098a5f-e95c-4806-bf77-af6829073194" name="Changes" comment="add context and legal">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Bewerbungsfoto_HG_blau-removebg-preview.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Easygiveback.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/Swipefood.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/darkMode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.6.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/nikoheinde.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/nikoheinde.iml" afterDir="false" />
+    <list default="true" id="ae098a5f-e95c-4806-bf77-af6829073194" name="Changes" comment="Change to Angular&#10;WIP because of routing problems with GithubPages">
+      <change afterPath="$PROJECT_DIR$/assets/Elektro-Breitling-Logo_150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_2420.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/IMG_2420.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/MB.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/MB.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/darkMode.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/darkMode.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -29,12 +26,24 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="angular_dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;nikohein&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/nikohein/nikohein.github.io.git&quot;,
+    &quot;accountId&quot;: &quot;97c179c4-b5b4-4ed7-a50c-9a11d7f16ff5&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -42,38 +51,68 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2ThXks19C6L6pLfUrmI4YiMHGsQ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "Node.js.darkMode.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "dev",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/nikoh/nikoheinde/nikoheinde/css",
+    "last_opened_file_path": "C:/Users/nikoh/Downloads/nikohein.github.io/assets",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "npm.sass.executor": "Run",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2023.2.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nikoh\Downloads\nikohein.github.io\assets" />
       <recent name="C:\Users\nikoh\nikoheinde\nikoheinde\css" />
       <recent name="C:\Users\nikoh\nikoheinde\nikoheinde\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nikoh\Downloads\nikohein.github.io\assets" />
+      <recent name="C:\Users\nikoh\Downloads\nikohein.github.io\css" />
       <recent name="C:\Users\nikoh\nikoheinde\nikoheinde\css" />
       <recent name="C:\Users\nikoh\nikoheinde\nikoheinde\js" />
       <recent name="C:\Users\nikoh\nikoheinde\nikoheinde\assets" />
-      <recent name="C:\Users\nikoh\nikoheinde\nikoheinde\Easygiveback" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sass" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="sass" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.sass" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-WS-251.25410.117" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -90,6 +129,7 @@
       <workItem from="1691741022145" duration="4427000" />
       <workItem from="1692020193897" duration="614000" />
       <workItem from="1692022262389" duration="15482000" />
+      <workItem from="1747493016191" duration="14378000" />
     </task>
     <task id="LOCAL-00001" summary="add bootstrap 5.3.1">
       <option name="closed" value="true" />

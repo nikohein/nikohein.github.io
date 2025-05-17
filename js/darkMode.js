@@ -7,7 +7,7 @@
 (() => {
     'use strict'
 
-    const getStoredTheme = () => localStorage.getItem('theme')
+    const getStoredTheme = () => localStorage.getItem('theme');
     const setStoredTheme = theme => localStorage.setItem('theme', theme)
 
     const getPreferredTheme = () => {
@@ -57,11 +57,28 @@
         }
     }
 
+    const updateLogo = theme => {
+        const logo = document.querySelectorAll('.cls-1');
+        console.log(logo)
+        console.log(theme)
+        if (theme === 'dark' || theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            logo.forEach(element => {
+                element.setAttribute('fill', "#fff")
+            })
+        } else if (theme === 'light') {
+            logo.forEach(element => {
+                console.log("WHITE")
+                element.setAttribute('fill', "#000")
+            })
+        }
+    }
+
     window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
         const storedTheme = getStoredTheme()
         if (storedTheme !== 'light' && storedTheme !== 'dark') {
             setTheme(getPreferredTheme())
         }
+        updateLogo(getPreferredTheme())
     })
 
     window.addEventListener('DOMContentLoaded', () => {
@@ -76,5 +93,6 @@
                     showActiveTheme(theme, true)
                 })
             })
+        updateLogo(getPreferredTheme())
     })
 })()
